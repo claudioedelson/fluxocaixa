@@ -21,9 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7BBF28D4-1B5D-496C-AD14-85D5E74E1DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Tests", "FluxoCaixa.Tests\FluxoCaixa.Tests.csproj", "{4893C3C4-BC19-4D0D-A992-68F6841830C4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01D5987A-7F32-4B5B-9E71-CFEFAF0C1035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluxoCaixa.Tests", "FluxoCaixa.Tests\FluxoCaixa.Tests.csproj", "{4893C3C4-BC19-4D0D-A992-68F6841830C4}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{73D9B7D0-869E-4224-B50A-7E3FFAE132C9}"
 EndProject

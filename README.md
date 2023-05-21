@@ -1,14 +1,5 @@
 # Sistema Fluxo de Caixa (SFC)
 
-
-## Dê uma estrela! ⭐
-
-Se você gostou deste projeto, aprendeu algo, dê uma estrelinha. Obrigado!
-
-Criado com o [Rider: o IDE .NET de plataforma cruzada da JetBrains](https://www.jetbrains.com/pt-br/rider/)
-
-![Rider logo](https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg)
-
 [.NET 7](https://docs.microsoft.com/pt-br/dotnet/core/whats-new/dotnet-7) + [EF Core 7.0](https://docs.microsoft.com/pt-br/ef/core/what-is-new/ef-core-7.0/whatsnew) + JWT Bearer + OpenAPI (Swagger)
 
 > Nota: projeto focado em **Back-End**
