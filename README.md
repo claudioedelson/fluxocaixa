@@ -26,13 +26,13 @@ Após executar o comando no terminal `docker-compose up --build`, basta abrir a 
 
 ## MiniProfiler for .NET
 
-Para acessar a página com os indicadores de desempenho e performance:
+Para acessar a página de monitoramento de requisições e performance:
 `http://localhost:8000/profiler/results-index`
 
 ## HealthCheck for .NET
 
-Para acessar a página com os indicadores de desempenho e performance:
-`http://localhost:8000/profiler/results-index`
+Para acessar a página de verificação da saúda da aplicação com os seguintes indicadores; GC,Base de Dados  :
+`http://localhost:8000/healthcheck`
 
 ## Configurando Banco de dados
 
