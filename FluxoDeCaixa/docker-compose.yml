@@ -1,0 +1,50 @@
+version: '3.4'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  fluxodecaixa.api:
+    image: ${DOCKER_REGISTRY-}fluxodecaixaapi
+    container_name: fc-webapi
+    build:
+      context: .
+      dockerfile: FluxoDeCaixa.API/Dockerfile
+    restart: unless-stopped
+    links:
+      - "redis"
+    networks:
+      - app-network
+    depends_on:
+      - "sqlserver"
+      - "redis"
+   # SQL Server
+  sqlserver:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    cap_add: [ 'SYS_PTRACE' ]
+    hostname: mssql
+    container_name: sqlserver
+    restart: always
+    expose:
+      - "1433"
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=pMA63033n6tF
+    networks:
+      - app-network
+
+  # Redis Cache Server
+  redis:
+    image: redis:latest
+    container_name: redis
+    command: redis-server --requirepass pMA63033n6tF
+    restart: always
+    expose:
+      - "6379"
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
