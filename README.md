@@ -20,6 +20,9 @@
 - Monitoramento de performance da aplicação: [MiniProfiler for .NET](https://miniprofiler.com/dotnet/)
 - Verificações de integridade da aplicação com [HealthChecks](https://docs.microsoft.com/pt-br/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
 
+## Desenho da Arquitetura baseada em Clean Code
+(https://drive.google.com/file/d/11hk7zSW2-ZKeRWtI88KfkKcyjwdSSEED/view?usp=sharing)
+
 ## Executando a aplicação usando o Docker
 
 Após executar o comando no terminal `docker-compose up --build`, basta abrir a url no navegador: `http://localhost:8000/swagger/`
