@@ -5,7 +5,10 @@ using FluxoDeCaixa.Application.Requests.Lancamento;
 using FluxoDeCaixa.Application.Responses;
 using FluxoDeCaixa.Application.Services;
 using FluxoDeCaixa.Domain.Enums;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Net.Mime;
 
 namespace FluxoDeCaixa.API.Controllers
@@ -26,13 +29,14 @@ namespace FluxoDeCaixa.API.Controllers
         /// <response code="400">Retorna lista de erros, se a requisição for inválida.</response>
         /// <response code="404">Quando nenhuma conta é encontrado pelo e-mail e senha fornecido.</response>
         [HttpGet()]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Consumes(MediaTypeNames.Application.Json)]
         [Produces(MediaTypeNames.Application.Json)]
         [ProducesResponseType(typeof(ApiResponse<LivroCaixaResponse>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Get([FromQuery] DateTime request)
+        public async Task<IActionResult> Get([FromQuery][Required] DateTime request)
         => (await _service.ObterAsync(request)).ToActionResult();
 
     }

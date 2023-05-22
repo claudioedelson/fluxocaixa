@@ -56,7 +56,7 @@ Por padrão é utilizado o SQL Server LocalDB, para alterar a conexão, modifiqu
 }
 ```
 
-Ao iniciar a aplicação o banco de dados será criado automaticamente e efetuado as migrações pendentenes,
+Ao iniciar a aplicação o banco de dados será criado automaticamente e efetuado as migrações pendentes,
 também será populado o arquivo de seed.
 
 ```c#
