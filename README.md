@@ -41,7 +41,7 @@ Para acessar a página de monitoramento de requisições e performance:
 ## HealthCheck for .NET
 
 Para acessar a página de verificação da saúde da aplicação com os seguintes indicadores; GC,Base de Dados  :
-`http://localhost:8000/healthcheck`
+`http://localhost:8000/health`
 
 ## Configurando Banco de dados
 
