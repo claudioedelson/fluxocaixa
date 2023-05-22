@@ -50,7 +50,7 @@ Por padrão é utilizado o SQL Server LocalDB, para alterar a conexão, modifiqu
 ```json
 {
   "ConnectionStrings": {
-    "Database": "Server=(localdb)\\mssqllocaldb;Database=SgpContext;Trusted_Connection=True;MultipleActiveResultSets=true;",
+    "Database": "Server=(localdb)\\mssqllocaldb;Database=FCContext;Trusted_Connection=True;MultipleActiveResultSets=true;",
     "Collation": "Latin1_General_CI_AI"
   }
 }
