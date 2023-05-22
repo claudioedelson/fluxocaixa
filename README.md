@@ -26,7 +26,9 @@
 
 ## Executando a aplicação usando o Docker
 -  Pré requisito Docker instalado - [![Docker] <img src="https://github.com/claudioedelson/fluxocaixa/blob/main/Imagens/docker.svg" width="32">](https://www.docker.com/)
-
+- Usuário de autenticação 
+    - usuario: guest@guest.com
+    - senha  : 123456
 Após executar o comando no terminal `docker-compose up --build` na raiz do repositório, basta abrir a url no navegador: `http://localhost:8000/swagger/`
 
 ## MiniProfiler for .NET
