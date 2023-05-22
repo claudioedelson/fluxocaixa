@@ -21,7 +21,8 @@
 - Verificações de integridade da aplicação com [HealthChecks](https://docs.microsoft.com/pt-br/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
 
 ## Desenho da Arquitetura baseada em Clean Code
-(https://drive.google.com/file/d/11hk7zSW2-ZKeRWtI88KfkKcyjwdSSEED/view?usp=sharing)
+[![Arquitetura de Software](https://github.com/claudioedelson/fluxocaixa/blob/main/Imagens/Arquitetura.png)]
+
 
 ## Executando a aplicação usando o Docker
 
