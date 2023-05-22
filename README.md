@@ -25,6 +25,7 @@
 
 
 ## Executando a aplicação usando o Docker
+-  Pré requisito Docker instalado - [![Docker](https://www.docker.com/))]
 
 Após executar o comando no terminal `docker-compose up --build`, basta abrir a url no navegador: `http://localhost:8000/swagger/`
 
