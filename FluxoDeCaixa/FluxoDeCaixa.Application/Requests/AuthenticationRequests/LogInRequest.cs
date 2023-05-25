@@ -1,7 +1,6 @@
 ﻿using FluxoDeCaixa.Shared;
 using FluxoDeCaixa.Shared.Messages;
 using System.ComponentModel.DataAnnotations;
-using System.Threading.Tasks;
 
 namespace FluxoDeCaixa.Application.Requests.AuthenticationRequests
 {

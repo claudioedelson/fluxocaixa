@@ -1,7 +1,4 @@
-﻿using FluxoDeCaixa.Domain.ValuesObjects;
-using FluxoDeCaixa.Shared.Abstractions;
-using System;
-using System.Collections.Generic;
+﻿using FluxoDeCaixa.Shared.Abstractions;
 
 namespace FluxoDeCaixa.Domain.Entities
 {

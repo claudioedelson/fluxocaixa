@@ -1,12 +1,7 @@
 ﻿using FluxoDeCaixa.Domain.Entities;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FluxoDeCaixa.Infrastructure.Extensions;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace FluxoDeCaixa.Infrastructure.Data.Mappings
 {
@@ -23,9 +18,7 @@ namespace FluxoDeCaixa.Infrastructure.Data.Mappings
                 .IsUnicode(false)
                 .HasMaxLength(30);
 
-            // Mapeamento de Objetos de Valor (ValueObject)
-            //builder.OwnsOne(usuario => usuario.Email, ownedNav =>
-            //{
+           
             builder.Property(usuario => usuario.Email)
                     .IsRequired()
                     .IsUnicode(false)

@@ -1,13 +1,8 @@
 ﻿using FluentAssertions;
 using FluxoCaixa.Tests.Constants;
 using FluxoCaixa.Tests.Fixtures;
-using Microsoft.EntityFrameworkCore;
 using FluxoDeCaixa.Infrastructure.Data.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.Infrastructure.Data.Context

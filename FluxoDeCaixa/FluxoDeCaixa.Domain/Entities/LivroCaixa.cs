@@ -1,10 +1,4 @@
-﻿using FluxoDeCaixa.Domain.Enums;
-using FluxoDeCaixa.Shared.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluxoDeCaixa.Shared.Abstractions;
 
 namespace FluxoDeCaixa.Domain.Entities
 {

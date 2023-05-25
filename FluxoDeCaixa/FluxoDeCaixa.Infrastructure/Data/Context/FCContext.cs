@@ -2,7 +2,6 @@
 using FluxoDeCaixa.Infrastructure.Extensions;
 using FluxoDeCaixa.Shared.AppSettings;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Options;
 using System.Reflection;
 

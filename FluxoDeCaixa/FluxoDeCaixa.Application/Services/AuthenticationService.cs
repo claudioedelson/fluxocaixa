@@ -5,17 +5,11 @@ using FluxoDeCaixa.Application.Requests.AuthenticationRequests;
 using FluxoDeCaixa.Application.Responses;
 using FluxoDeCaixa.Domain.Entities;
 using FluxoDeCaixa.Domain.Repositories;
-using FluxoDeCaixa.Domain.ValuesObjects;
 using FluxoDeCaixa.Shared.Abstractions;
 using FluxoDeCaixa.Shared.AppSettings;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FluxoDeCaixa.Application.Services
 {

@@ -1,6 +1,4 @@
 ﻿using FluxoCaixa.Tests.Fixtures;
-using System;
-using System.Collections.Generic;
 using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.IntegrationTests

@@ -1,8 +1,8 @@
 ﻿using FluxoDeCaixa.Shared.Abstractions;
 using FluxoDeCaixa.Shared.AppSettings;
 using FluxoDeCaixa.Shared.Constants;
-using System.Diagnostics.CodeAnalysis;
 using Microsoft.Extensions.DependencyInjection;
+using System.Diagnostics.CodeAnalysis;
 
 namespace FluxoDeCaixa.Shared
 {

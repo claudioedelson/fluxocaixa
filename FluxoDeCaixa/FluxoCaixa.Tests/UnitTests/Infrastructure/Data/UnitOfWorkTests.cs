@@ -6,12 +6,6 @@ using FluxoDeCaixa.Infrastructure.Data.Context;
 using FluxoDeCaixa.Shared.Abstractions;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.Infrastructure.Data

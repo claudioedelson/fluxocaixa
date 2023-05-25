@@ -3,11 +3,6 @@ using FluxoDeCaixa.Infrastructure.Services;
 using FluxoDeCaixa.Shared.Abstractions;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.Infrastructure.Services

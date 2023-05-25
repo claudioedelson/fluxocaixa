@@ -3,7 +3,6 @@ using AutoMapper;
 using FluxoDeCaixa.Application.Interfaces;
 using FluxoDeCaixa.Application.Responses;
 using FluxoDeCaixa.Domain.Repositories;
-using FluxoDeCaixa.Shared.Abstractions;
 
 namespace FluxoDeCaixa.Application.Services
 {

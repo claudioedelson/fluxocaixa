@@ -1,13 +1,8 @@
 ﻿using FluxoDeCaixa.Shared.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Scrutor;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FluxoDeCaixa.Application
 {

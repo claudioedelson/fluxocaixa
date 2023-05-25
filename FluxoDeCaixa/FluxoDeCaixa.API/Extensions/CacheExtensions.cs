@@ -1,6 +1,6 @@
-﻿using FluxoDeCaixa.Shared.AppSettings;
+﻿using FluxoDeCaixa.Infrastructure;
+using FluxoDeCaixa.Shared.AppSettings;
 using FluxoDeCaixa.Shared.Constants;
-using FluxoDeCaixa.Infrastructure;
 using FluxoDeCaixa.Shared.Extensions;
 
 

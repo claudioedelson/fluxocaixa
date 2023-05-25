@@ -1,17 +1,12 @@
 ﻿using Ardalis.Result;
 using Bogus;
-using FluxoDeCaixa.API.ObjectResults;
-using FluxoDeCaixa.API.Extensions;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit.Categories;
 using FluentAssertions;
 using FluxoCaixa.Tests.Extensions;
+using FluxoDeCaixa.API.Extensions;
+using FluxoDeCaixa.API.ObjectResults;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.PublicApi.Extensions
 {

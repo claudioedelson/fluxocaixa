@@ -1,5 +1,4 @@
-﻿using System;
-using FluxoDeCaixa.Shared.Abstractions;
+﻿using FluxoDeCaixa.Shared.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 

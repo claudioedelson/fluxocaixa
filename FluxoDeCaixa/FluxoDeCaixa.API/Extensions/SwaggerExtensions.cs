@@ -1,12 +1,11 @@
-﻿using Microsoft.Extensions.Options;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using System.Reflection;
-using System;
+﻿using Ardalis.GuardClauses;
 using FluxoDeCaixa.API.Filters;
 using FluxoDeCaixa.API.Options;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
-using Ardalis.GuardClauses;
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Reflection;
 
 namespace FluxoDeCaixa.API.Extensions
 {

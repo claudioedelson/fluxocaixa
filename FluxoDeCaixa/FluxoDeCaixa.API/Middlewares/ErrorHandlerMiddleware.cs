@@ -1,6 +1,5 @@
 ﻿using FluxoDeCaixa.API.Models;
 using FluxoDeCaixa.Shared.Extensions;
-using FluxoDeCaixa.Shared.Messages;
 using System.Net.Mime;
 
 namespace FluxoDeCaixa.API.Middlewares

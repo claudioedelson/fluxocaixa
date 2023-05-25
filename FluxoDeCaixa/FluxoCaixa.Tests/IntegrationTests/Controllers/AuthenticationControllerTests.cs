@@ -4,17 +4,12 @@ using FluxoCaixa.Tests.Fixtures;
 using FluxoDeCaixa.Application.Requests.AuthenticationRequests;
 using FluxoDeCaixa.Application.Responses;
 using FluxoDeCaixa.Domain.Entities;
-using FluxoDeCaixa.Domain.ValuesObjects;
 using FluxoDeCaixa.Infrastructure.Data.Context;
 using FluxoDeCaixa.Shared.Abstractions;
 using FluxoDeCaixa.Shared.Extensions;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mime;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace FluxoCaixa.Tests.IntegrationTests.Controllers
 {

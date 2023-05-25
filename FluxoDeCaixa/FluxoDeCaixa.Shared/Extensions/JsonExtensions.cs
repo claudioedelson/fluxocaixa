@@ -1,5 +1,4 @@
-﻿using System;
-using JsonNet.ContractResolvers;
+﻿using JsonNet.ContractResolvers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;

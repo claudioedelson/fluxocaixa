@@ -3,10 +3,8 @@ using FluxoDeCaixa.API.Models;
 using FluxoDeCaixa.Application.Interfaces;
 using FluxoDeCaixa.Application.Requests.AuthenticationRequests;
 using FluxoDeCaixa.Application.Responses;
-using FluxoDeCaixa.Shared.Messages;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
 

@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Ardalis.Result;
+﻿using Ardalis.Result;
 using FluxoDeCaixa.API.Models;
 using FluxoDeCaixa.API.ObjectResults;
 using Microsoft.AspNetCore.Mvc;

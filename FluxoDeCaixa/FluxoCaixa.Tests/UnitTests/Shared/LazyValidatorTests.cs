@@ -1,12 +1,7 @@
 ﻿using FluentAssertions;
-using FluxoDeCaixa.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit.Categories;
 using FluxoDeCaixa.Application.Requests;
+using FluxoDeCaixa.Shared;
+using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.Shared
 {

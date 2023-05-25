@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using FluentValidation.Results;
+﻿using FluentValidation.Results;
 using Newtonsoft.Json;
 
 namespace FluxoDeCaixa.Shared.Messages

@@ -1,12 +1,8 @@
 ﻿using FluxoDeCaixa.Infrastructure.Data.Context;
 using FluxoDeCaixa.Shared.AppSettings;
-using FluxoDeCaixa.Infrastructure.Data.Context;
 using FluxoDeCaixa.Shared.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace FluxoDeCaixa.API.Extensions
 {

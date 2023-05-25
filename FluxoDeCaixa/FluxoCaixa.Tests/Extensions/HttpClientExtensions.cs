@@ -1,11 +1,6 @@
 ﻿using Ardalis.GuardClauses;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FluxoDeCaixa.Shared.Extensions;
+using Newtonsoft.Json.Linq;
 
 namespace FluxoCaixa.Tests.Extensions
 {

@@ -1,10 +1,7 @@
 ﻿using FluxoDeCaixa.API.Extensions;
 using FluxoDeCaixa.API.Models;
 using FluxoDeCaixa.Application.Interfaces;
-using FluxoDeCaixa.Application.Requests.Lancamento;
 using FluxoDeCaixa.Application.Responses;
-using FluxoDeCaixa.Application.Services;
-using FluxoDeCaixa.Domain.Enums;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

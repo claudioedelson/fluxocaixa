@@ -1,20 +1,15 @@
 ﻿using Bogus;
+using FluentAssertions;
+using FluxoCaixa.Tests.Extensions;
 using FluxoCaixa.Tests.Fixtures;
 using FluxoDeCaixa.Domain.Entities;
 using FluxoDeCaixa.Domain.Repositories;
-using FluxoDeCaixa.Infrastructure.Data.Repositories;
 using FluxoDeCaixa.Infrastructure.Data;
+using FluxoDeCaixa.Infrastructure.Data.Repositories;
 using FluxoDeCaixa.Shared.Abstractions;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit.Categories;
-using FluentAssertions;
-using FluxoCaixa.Tests.Extensions;
 
 namespace FluxoCaixa.Tests.UnitTests.Infrastructure.Data.Repositories
 {

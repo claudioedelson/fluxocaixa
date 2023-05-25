@@ -1,6 +1,5 @@
 ﻿using FluxoDeCaixa.API.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace FluxoDeCaixa.API.Extensions
 {

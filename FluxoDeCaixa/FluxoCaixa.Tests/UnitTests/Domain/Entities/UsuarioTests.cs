@@ -1,13 +1,7 @@
 ﻿using Bogus;
 using FluentAssertions;
 using FluxoDeCaixa.Domain.Entities;
-using FluxoDeCaixa.Domain.ValuesObjects;
 using FluxoDeCaixa.Infrastructure.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit.Categories;
 
 namespace FluxoCaixa.Tests.UnitTests.Domain.Entities

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FluxoDeCaixa.Shared.Abstractions
+﻿namespace FluxoDeCaixa.Shared.Abstractions
 {
     /// <summary>
     /// O hash é uma função unilateral que embaralha o texto simples para produzir um resumo da mensagem exclusivo.
